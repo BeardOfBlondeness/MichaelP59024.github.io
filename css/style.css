@@ -1,7 +1,37 @@
 .sprite {
 	width: 102px;
 	height: 148px;
-	margin-top: 25%;
+	margin-top: 20%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0000008C;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 21px;
+    text-decoration: none;
+		font-family: 'Poor Richard';
+		font-size: 40px;
+		font-weight:bold;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+li:last-child {
+    border-right: none;
 }
 body {
     background-image: url("Romwell.jpg");
