@@ -1537,10 +1537,10 @@ body {
 
 body {
     background-color: #99ccff;
-    background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #6F5E9D 15%, #5f4d93 85%);
-    background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #6F5E9D 15%, #5f4d93 85%);
-    background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #6F5E9D 15%, #5f4d93 85%);
-    background-image: url("images/overlay.png"), linear-gradient(45deg, #6F5E9D 15%, #5f4d93 85%);
+    background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #99ccff 15%, #99ccff 85%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #99ccff 15%,#99ccff 85%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #99ccff 15%, #99ccff 85%);
+    background-image: url("images/overlay.png"), linear-gradient(45deg, #99ccff 15%, #99ccff 85%);
 }
 
 body.is-loading *,
