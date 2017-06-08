@@ -3062,16 +3062,6 @@ table.alt tbody tr td {
     display: block;
     margin: 0 auto;
     max-width: 35%;
-    -moz-transform: scale(1.05);
--webkit-transform: scale(1.05);
--o-transform: scale(1.05);
--ms-transform: scale(1.05);
--webkit-transform: scale(1.05);
-transform: scale(1.05);
-
--webkit-transition: transform 1.05s ease-in-out;
--moz-transition:transform 1.05s ease-in-out;
--ms-transition:transform 1.05s ease-in-out;
 }
 
 @media screen and (max-width: 1280px) {
