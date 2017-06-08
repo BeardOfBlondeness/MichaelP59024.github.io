@@ -1,6 +1,6 @@
 ---
-key: "shastri"
-name: "Abhishek Shastry"
-description: "Mechanical Team"
-image: /images/people/shastri.jpg
+key: "Brotest"
+name: "Brotest"
+description: "An online university grades calculator! http://www.brotest.esy.es (under development)"
+image: /images/people/calc.jpg
 ---
