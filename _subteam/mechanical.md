@@ -1,6 +1,6 @@
 ---
-title: Mechanical
+title: Games
 icon: fa-gears
 iconstyle: style3
-description: The mechanical team is responsible for designing, prototyping and manufacturing of complete vehicle consisting of frame, waterproof hull, torpedoes etc.
+description: I will be keeping track of my ranks and achievements in games. This will be from divisions in "League of Legends" to challenge runs on "Dark Souls".
 ---

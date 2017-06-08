@@ -1,6 +1,6 @@
 ---
-title: Electrical
+title: My Life
 icon: fa-bolt
 iconstyle: style5
-description: The electrical team ensures efficient power management and a smooth interface between the processor and the actuators & sensors.
+description: I will be keeping an up-to-date record of events happening in my life, from student life to jobs!
 ---

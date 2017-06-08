@@ -1,6 +1,6 @@
 ---
-title: Software
+title: Development
 icon: fa-code
 iconstyle: style1
-description: The software team is responsible for programing the robot to complete tasks autonomously using data from sensors and controlling motion using actuators.  
+description: I will keep all my development updates posted, and make sure download links and source code is available! (If I make it available, of course ;) )
 ---
