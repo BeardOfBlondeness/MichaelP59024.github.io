@@ -32,31 +32,4 @@ layout: default
                     {% endfor %}
                 </ul>
             </section>
-            <section id="third" class="main special">
-                <header class="major">
-                    <h2>AUV Competitions</h2>
-                </header>
-                    {% for item in site.competition %}
-                    <p style="clear: both;">
-                    <span class="image {% cycle 'left', 'right' %}"><img src="{{ item.image }}" alt="" /></span>
-                    <h3> {{ item.title }} </h3>
-                    {{ item.description }}
-                    <a href="{{ item.link }}"><i>Read more...</i></a>
-                    </p>
-                    <br>
-                    {% endfor %}
-            </section>
-            <section id="fourth" class="main special">
-                <header class="major">
-                    <h2>Research Collaborations</h2>
-                </header>
-                    {% for item in site.research %}
-                    <p style="clear: both;">
-                    <span class="image {% cycle 'left', 'right' %}"><img src="{{ item.image }}" alt="" /></span>
-                    <h3> {{ item.title }} </h3>
-                    {{ item.description }}
-                    </p>
-                    <br>
-                    {% endfor %}
-            </section>
         </div>
