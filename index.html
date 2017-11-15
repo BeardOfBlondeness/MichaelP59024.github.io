@@ -1,35 +1,20 @@
----
-layout: default
----
-        <!-- Header -->
-        <header id="header" class="alt">
-            <span class="logo"><img src="images/logo.png" alt="auv-iitk" /></span>
-            <span class="typedheader typed"></span> <!-- filled by main.js using typed.js -->
-        </header>
-        <div id="main">
-            <section id="intro" class="main">
-                <div class="spotlight">
-                    <div class="content">
-                        <header class="major">
-                            <h2>Who am I?</h2>
-                        </header>
-                        <p>I am a nerdy student living in the United Kingdom who wishes to share his thoughts in a collected area, for all to enjoy as they wish.<br> Hopefully this blog will become something I am proud of and not a forgotten meme! Thanks for stopping by :) </p>
-                    </div>
-                    <span class="image"><img src="images/me.png" alt="varun" /></span>
-                </div>
-            </section>
-            <section id="subteams" class="main special">
-                <header class="major">
-                    <h2>What I Will Be Talking About</h2>
-                </header>
-                <ul class="features">
-                    {% for item in site.subteam %}
-                    <li>
-                        <span class="icon major {{ item.iconstyle }} {{ item.icon }}"></span>
-                        <h3>{{ item.title }}</h3>
-                        <p>{{ item.description }}</p>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </section>
-        </div>
+<html>
+<head>
+<title>Mike Ps course helper</title>
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "css/main.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+   <script src="main.js"></script>
+</head>
+
+<body onload="loadPosts()">
+<div id="fileCount"></div>
+<div id="files"></div>
+  <div class="title-text">
+    <span>CompSci Helper UoR</span>
+  </div>
+</div>
+</body>
+
+</html>

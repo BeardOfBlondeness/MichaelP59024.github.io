@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+body,
+html {
+  font-family: 'Work Sans', sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: radial-gradient(ellipse at center, rgba(3, 41, 169, 1) 0%, rgba(2, 34, 143, 1) 44%, rgba(0, 25, 109, 1) 100%);
+  /* W3C */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=1);
+  /* IE6-8 fallback on horizontal gradient */
+}
+
+.title-text {
+	  position: absolute;
+  top: 10%;
+  display: block;
+  left: 25%;
+  margin-left: -99px;
+  margin-top: -50px;
+  text-align: center;
+    font-size: 6rem;
+	  color: #FFF;
+  text-shadow: 2px 2px 6px #333;
+  animation: color-changer 6s infinite;
+  transition: color-changer ease-in-out;
+}
