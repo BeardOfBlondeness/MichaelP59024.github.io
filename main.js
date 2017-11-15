@@ -1,7 +1,7 @@
 function loadPosts() {
 
 $.ajax({
-    url: "/posts/",
+    url: "https://michaelp59024.github.io/posts/",
     success: function(data) {
         var parser = new DOMParser(),
             doc = parser.parseFromString(data, 'text/html');
