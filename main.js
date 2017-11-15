@@ -8,9 +8,10 @@ $.ajax({
         if(i>=4)
         {           
             //this will iterate all folders and files found there 
-				document.write(hello);
+				document.write("hello");
         }
 
     });
 
+}
 }
